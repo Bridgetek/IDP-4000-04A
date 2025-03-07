@@ -5,7 +5,6 @@
 # Folder introduction
 ```
 📂 smart_home_control_hub_app
-    ├───Data                           | Converted bitmap resource data and flash data which is used by application
     ├───Esd_Core                       | The application core files
     ├───FT_Esd_Framework               | The application framework files
     ├───FT_Esd_Widgets                 | The widget files
