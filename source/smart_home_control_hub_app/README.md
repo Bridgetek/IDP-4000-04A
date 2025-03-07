@@ -24,8 +24,11 @@ IDP2040-40A is using EVE BT815 with Raspberry Pi Pico RP2040 host platform. User
 * power supply
 * IDP2040-40A develop board
 
+![IDP2040-40A](https://github.com/user-attachments/assets/ebc59966-4767-4e1a-af5b-ad39de4deaa4)
+
+
 ## Software requirement
-* This folder does not include Pico toolchain. For information on downloading, installing, and using the toolchain, please visit https://github.com/raspberrypi/pico-setup-windows. This folder used toolchain version is 1.5.1.
+* This folder does not include Pico toolchain. For information on downloading, installing, and using the toolchain, please visit https://github.com/raspberrypi/pico-setup-windows. This folder used toolchain version is **1.5.1**.
 * cmake
 * Visual Studio
 * GNU Arm Embedded Toolchain for windows
@@ -41,7 +44,7 @@ cd build
 [path to cmake] -G "NMake Makefiles" -DCMAKE_BUILD_TYPE=Debug ..
 nmake
 ```
-2. SmartHomeControlHub.uf file will be generated in build folder
+2. SmartHomeControlHub.uf file will be generated in **build** folder
 
 ## Program
 1. While holding the **BOOTSEL** button, connect the board to computer via the USB cable, or alternatively, press the **RESET** button while holding the **BOOTSEL** button, then release the **RESET** button.
