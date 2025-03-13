@@ -16,14 +16,14 @@
     ├───pico_sdk_import.cmake          | SDK import file from pico
 ```
 # Usage
-IDP2040-40A is using EVE BT815 with Raspberry Pi Pico RP2040 host platform. Users are expected to be familiar with the BT81X programming guide and data sheet for EVE BT815 chip.
+**IDP-4000-04A** is using EVE BT815 with Raspberry Pi Pico RP2040 host platform. Users are expected to be familiar with the BT81X programming guide and data sheet for EVE BT815 chip.
 
 ## Hardware requirement
 * USB cable
 * power supply
-* IDP2040-40A develop board
+* IDP-4000-04A develop board
 
-![IDP2040-40A](https://github.com/user-attachments/assets/ebc59966-4767-4e1a-af5b-ad39de4deaa4)
+![IDP-4000-04A](https://github.com/user-attachments/assets/ebc59966-4767-4e1a-af5b-ad39de4deaa4)
 
 
 ## Software requirement

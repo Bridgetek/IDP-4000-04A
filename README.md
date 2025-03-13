@@ -1,7 +1,7 @@
-# IDP2040-40A
-The repo contains all the development support information for Bridgetek [IDP2040-40A](https://brtchip.com/product/idp2040-40a/) product. 
+# IDP-4000-04A
+The repo contains all the development support information for Bridgetek [IDP-4000-04A](https://brtchip.com/product/IDP-4000-04A/) product. 
 
-IDP2040-40A is a development module , powered by Raspberry Pi RP2040 microcontroller with BT815 GPU and integrated with:
+IDP-4000-04A is a development module , powered by Raspberry Pi RP2040 microcontroller with BT815 GPU and integrated with:
 *  Built-in buzzer for audio feedback
 *  RS-485 transceiver
 *  4-inch square LCD (480x480 pixels) with  Projected Capacitive Multi-Touch support
@@ -20,7 +20,7 @@ Here are the folder structure :
 
 Bridgetek offers a comprehensive IDE tool, **EVE Screen Designer (ESD)**, to streamline GUI application development.  
 
-Starting from **ESD 4.19.6**, the **IDP2040-40A** is supported as a native platform. You can download ESD from: [https://brtchip.com/esd/](https://brtchip.com/esd/).  
+Starting from **ESD 4.19.6**, the **IDP-4000-04A** is supported as a native platform. You can download ESD from: [https://brtchip.com/esd/](https://brtchip.com/esd/).  
 
 The default firmware is built from an example project within ESD.  
 
