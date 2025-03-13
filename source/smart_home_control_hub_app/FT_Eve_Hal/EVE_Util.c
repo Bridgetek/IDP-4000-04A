@@ -960,7 +960,7 @@ EVE_HAL_EXPORT bool EVE_Util_config(EVE_HalContext *phost, EVE_ConfigParameters 
 
 
 
-	EVE_IDP2040_40A_RP2040_bootup();
+	EVE_IDP_4000_04A_RP2040_bootup();
 	eve_printf_debug("after PD40 RP2040 bootup\n");
 	EVE_Hal_restoreSPI(phost);
 

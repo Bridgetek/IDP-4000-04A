@@ -52,7 +52,7 @@ extern "C" {
 #include "EVE_CoCmd.h"
 #include "EVE_CoDl.h"
 #include "EVE_GpuDefs.h"
-#include "EVE_IDP2040_40A.h"
+#include "EVE_IDP_4000_04A.h"
 #include "EVE_Util.h"
 #include "EVE_LoadFile.h"
 

@@ -141,7 +141,7 @@ void lcd40_init()
 	EVE_sleep(25);
 }
 
-void EVE_IDP2040_40A_RP2040_bootup()
+void EVE_IDP_4000_04A_RP2040_bootup()
 {
 	// LCD panel cannot setup first because LCD_RESET is FT8xx DISP pin, which
     // is now enabled above. But now, have to override EVE MOSI & SCK pins for

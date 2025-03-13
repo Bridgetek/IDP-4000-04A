@@ -28,13 +28,13 @@
  * have additional licence terms that apply to those amendments. However, Bridgetek
  * has no liability in relation to those amendments.
  */
-#ifndef EVE_IDP2040_40A__H
-#define EVE_IDP2040_40A__H
+#ifndef EVE_IDP_4000_04A__H
+#define EVE_IDP_4000_04A__H
 
 
-void EVE_IDP2040_40A_RP2040_bootup();
+void EVE_IDP_4000_04A_RP2040_bootup();
 
 
-#endif /* EVE_IDP2040_40A__H */
+#endif /* EVE_IDP_4000_04A__H */
 
 /* end of file */

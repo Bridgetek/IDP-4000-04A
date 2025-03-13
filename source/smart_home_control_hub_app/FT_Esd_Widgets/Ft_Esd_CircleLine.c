@@ -65,7 +65,8 @@ void Ft_Esd_CircleLine_Render_Func(Ft_Esd_CircleLine *context, int x, int y, int
 	EVE_CoCmd_dl(phost, COLOR_MASK(1, 1, 1, 1));
 	EVE_CoCmd_dl(phost, BLEND_FUNC(DST_ALPHA, ONE_MINUS_DST_ALPHA));
 	Ft_Esd_CircleLine_Draw_Square(x - radius, y - radius, radius * 2);
-
+	//Reset vertex format to default
+	EVE_CoDl_vertexFormat(phost, 4);
 	EVE_CoCmd_dl(phost, RESTORE_CONTEXT());
 }
 

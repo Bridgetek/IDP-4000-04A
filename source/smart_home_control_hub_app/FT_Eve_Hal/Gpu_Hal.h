@@ -49,7 +49,7 @@
 
 
 
-// error : inserted by coan: "#define FT81X_ENABLE" contradicts -U or --implicit at C:\Users\tam.tranphuc\Music\IDP2040-40A\RoomConsole_IDP2040_40A\FT_Eve_Hal\Gpu_Hal.h(73)
+// error : inserted by coan: "#define FT81X_ENABLE" contradicts -U or --implicit at C:\Users\tam.tranphuc\Music\IDP_4000_04A\SmartHomeControl_IDP_4000_04A\FT_Eve_Hal\Gpu_Hal.h(73)
 
 #define PROGMEM eve_progmem
 #define PROGMEM_CONST eve_progmem_const

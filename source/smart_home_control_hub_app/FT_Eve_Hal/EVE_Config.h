@@ -124,13 +124,13 @@ ESD_TARGET_GRAPHICS(EVE_GRAPHICS_ME817EV, DisplayName = "ME817EV", IntegratedFla
 
 ESD_TARGET_GRAPHICS(EVE_GRAPHICS_GD3X_DAZZLER, DisplayName = "GD3X Dazzler", IntegratedDisplay = "HDMI 720p (1280x720)", IntegratedFlash = "W25Q64", SupportedTouch = "\b\w+DISABLED\w*\b", LibraryTargets = "\b(BT81X|BT815)\b", FirmwareFolder = "BT815")
 ESD_TARGET_GRAPHICS(EVE_GRAPHICS_IDM2040, DisplayName = "IDM2040-7A (BT817)", IntegratedFlash = "W25Q128", SupportedTouch = "\b\w+FOCAL\w*\b|\b\w+GOODIX\w*\b", IntegratedPlatform = "RP2040", LibraryTargets = "\b(BT81X|BT818)\b", FirmwareFolder = "BT817")
-ESD_TARGET_GRAPHICS(EVE_GRAPHICS_IDP2040_101A, DisplayName = "IDP2040-101A (BT817)", IntegratedFlash = "W25Q128", SupportedTouch = "\b\w+FOCAL\w*\b|\b\w+GOODIX\w*\b", IntegratedPlatform = "RP2040", LibraryTargets = "\b(BT81X|BT818)\b", FirmwareFolder = "BT817")
+ESD_TARGET_GRAPHICS(EVE_GRAPHICS_IDP_1000_04A, DisplayName = "IDP-1000-04A (BT817)", IntegratedFlash = "W25Q128", SupportedTouch = "\b\w+FOCAL\w*\b|\b\w+GOODIX\w*\b", IntegratedPlatform = "RP2040", LibraryTargets = "\b(BT81X|BT818)\b", FirmwareFolder = "BT817")
 
-ESD_TARGET_GRAPHICS(EVE_GRAPHICS_IDP2040_40A, DisplayName = "IDP2040-40A (BT815)", IntegratedFlash = "W25Q128", SupportedTouch = "\b\w+GOODIX\w*\b", IntegratedPlatform = "RP2040", LibraryTargets = "\b(BT81X|BT815)\b", FirmwareFolder = "BT815")
+ESD_TARGET_GRAPHICS(EVE_GRAPHICS_IDP_4000_04A, DisplayName = "IDP-4000-04A (BT815)", IntegratedFlash = "W25Q128", SupportedTouch = "\b\w+GOODIX\w*\b", IntegratedPlatform = "RP2040", LibraryTargets = "\b(BT81X|BT815)\b", FirmwareFolder = "BT815")
 
-ESD_TARGET_GRAPHICS(EVE_GRAPHICS_IDP903_35PA, DisplayName = "IDP903-35PA (FT903)", IntegratedDisplay = "HVGA (320x480)", SupportedFlash = "(?=a)b", SupportedTouch = "\b\w+FOCAL\w*\b", LibraryTargets = "\b(FT81X|FT811)\b")
+ESD_TARGET_GRAPHICS(EVE_GRAPHICS_IDP_3500_04A, DisplayName = "IDP-3500-04A (FT903)", IntegratedDisplay = "HVGA (320x480)", SupportedFlash = "(?=a)b", SupportedTouch = "\b\w+FOCAL\w*\b", LibraryTargets = "\b(FT81X|FT811)\b")
 
-ESD_TARGET_GRAPHICS(EVE_GRAPHICS_IDP903_50A, DisplayName = "IDP903-50A (FT903)", SupportedFlash = "(?=a)b", SupportedTouch = "\b\w+FOCAL\w*\b", LibraryTargets = "\b(FT81X|FT813)\b")
+ESD_TARGET_GRAPHICS(EVE_GRAPHICS_IDP_5000_04A, DisplayName = "IDP-5000-04A (FT903)", SupportedFlash = "(?=a)b", SupportedTouch = "\b\w+FOCAL\w*\b", LibraryTargets = "\b(FT81X|FT813)\b")
 
 
 ESD_TARGET_GRAPHICS(EVE_GRAPHICS_IDM2040_43A, DisplayName = "IDM2040-43A (BT883)", SupportedFlash = "(?=a)b", SupportedTouch = "\b\w+FOCAL\w*\b|\b\w+GOODIX\w*\b", IntegratedPlatform = "RP2040", LibraryTargets = "\b(FT81X|FT813)\b", FirmwareFolder = "-")
@@ -319,7 +319,7 @@ It may also set platform, display, and flash values if none are configured.
 #ifndef EVE_DISPLAY_AVAILABLE
 #define EVE_DISPLAY_AVAILABLE
 #define DISPLAY_RESOLUTION_WQVGA_SQ
-#define ENABLE_IDP2040_40A_RP2040
+#define ENABLE_IDP_4000_04A_RP2040
 #endif
 
 
@@ -381,10 +381,10 @@ These may only be set by one of the platform target definitions, and should not 
 */
 
 #if defined(__FT900__)
-// error : inserted by coan: "#define FT900_PLATFORM" contradicts -U or --implicit at C:\Users\tam.tranphuc\Music\IDP2040-40A\RoomConsole_IDP2040_40A\FT_Eve_Hal\EVE_Config.h(1562)
+// error : inserted by coan: "#define FT900_PLATFORM" contradicts -U or --implicit at C:\Users\tam.tranphuc\Music\IDP_4000_04A\SmartHomeControl_IDP_4000_04A\FT_Eve_Hal\EVE_Config.h(1562)
 
 #elif defined(__FT930__)
-// error : inserted by coan: "#define FT93X_PLATFORM" contradicts -U or --implicit at C:\Users\tam.tranphuc\Music\IDP2040-40A\RoomConsole_IDP2040_40A\FT_Eve_Hal\EVE_Config.h(1567)
+// error : inserted by coan: "#define FT93X_PLATFORM" contradicts -U or --implicit at C:\Users\tam.tranphuc\Music\IDP_4000_04A\SmartHomeControl_IDP_4000_04A\FT_Eve_Hal\EVE_Config.h(1567)
 
 #else
 #define RP2040_PLATFORM
@@ -433,7 +433,7 @@ These may only be set by one of the platform target definitions, and should not 
 /// Avoid hardcoding specific EVE models throughout the libraries.
 /// Allows disabling specific features for debugging purposes.
 #if (EVE_SUPPORT_CHIPID >= EVE_BT817)
-// error : inserted by coan: "#define EVE_SUPPORT_HSF" contradicts -U or --implicit at C:\Users\tam.tranphuc\Music\IDP2040-40A\RoomConsole_IDP2040_40A\FT_Eve_Hal\EVE_Config.h(1714)
+// error : inserted by coan: "#define EVE_SUPPORT_HSF" contradicts -U or --implicit at C:\Users\tam.tranphuc\Music\IDP_4000_04A\SmartHomeControl_IDP_4000_04A\FT_Eve_Hal\EVE_Config.h(1714)
 #endif
 #if (EVE_SUPPORT_CHIPID >= EVE_BT815)
 #define EVE_SUPPORT_FLASH
@@ -446,13 +446,13 @@ These may only be set by one of the platform target definitions, and should not 
 #define EVE_SUPPORT_CMDB
 #define EVE_SUPPORT_MEDIAFIFO
 #if !(EVE_SUPPORT_CHIPID >= EVE_BT880 && EVE_SUPPORT_CHIPID <= EVE_BT883)
-// error : inserted by coan: "#define EVE_SUPPORT_LARGEFONT" contradicts -U or --implicit at C:\Users\tam.tranphuc\Music\IDP2040-40A\RoomConsole_IDP2040_40A\FT_Eve_Hal\EVE_Config.h(1727)
+// error : inserted by coan: "#define EVE_SUPPORT_LARGEFONT" contradicts -U or --implicit at C:\Users\tam.tranphuc\Music\IDP_4000_04A\SmartHomeControl_IDP_4000_04A\FT_Eve_Hal\EVE_Config.h(1727)
 #endif
 #endif
 #if ((EVE_SUPPORT_CHIPID & 0x01) == 0x01)
 #define EVE_SUPPORT_CAPACITIVE
 #else
-// error : inserted by coan: "#define EVE_SUPPORT_RESISTIVE" contradicts -U or --implicit at C:\Users\tam.tranphuc\Music\IDP2040-40A\RoomConsole_IDP2040_40A\FT_Eve_Hal\EVE_Config.h(1734)
+// error : inserted by coan: "#define EVE_SUPPORT_RESISTIVE" contradicts -U or --implicit at C:\Users\tam.tranphuc\Music\IDP_4000_04A\SmartHomeControl_IDP_4000_04A\FT_Eve_Hal\EVE_Config.h(1734)
 #endif
 
 ///////////////////////////////////////////////////////////////////////
