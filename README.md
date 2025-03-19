@@ -24,7 +24,11 @@ Starting from **ESD 4.19.6**, the **IDP-4000-04A** is supported as a native plat
 
 The default firmware is built from an example project within ESD.  
 
-![image](https://github.com/user-attachments/assets/21f86abf-6fc7-4cb1-9eb5-0af424e3533c)
+![image](https://github.com/user-attachments/assets/3f7fa001-561e-4c40-a7c9-90c4bfcb0d57)
+
+
+
+![image](https://github.com/user-attachments/assets/35c4a313-30cd-43fc-a977-164b1365659a)
 
 
 We strongly encourage developers to leverage ESD for efficient GUI application development.
