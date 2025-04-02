@@ -95,3 +95,4 @@ The BSP supports a command-line interface when used with the USB-debug port and 
 - ```sd```       - SD card mount detect
 - ```eve```      - show Bridgetek LOGO on LCD screen
 - ```buzzer```   - play a sound via buzzer
+- ```temp```     - display board temperature

@@ -14,6 +14,7 @@
 #include "sdcard.h"
 #include "eve_app.h"
 #include "rotary.h"
+#include "max31725.h"
 
 int cmd_rotsw(int argc, char *argv[])
 {
@@ -48,5 +49,17 @@ int cmd_buzzer(int argc, char* argv[])
 
 	printf("\nBuzzer test\n");
 
+	return 0;
+}
+
+int cmd_temperature(int argc, char* argv[])
+{
+	float temp = max31725_deg_C();
+	if (temp < -128.0) {
+		printf("\nERROR: max31725_deg_C() = %f deg\n", temp);
+	}
+	else {
+		printf("\nmax31725_deg_C() = %f deg_C\n", temp);
+	}
 	return 0;
 }
