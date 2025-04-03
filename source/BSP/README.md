@@ -11,7 +11,7 @@ This repository offers hardware support for the IDP-4000-04A platform. This BSP 
 - MicroSD card connector for RP2040
 - BT815 EVE GPU display controller with 16 MByte serial Flash
 - 4" TFT LCD panel with capacitive touchscreen
-- Buzzer transducer on submodule, for EVE GPU alert sounds
+- Buzzer for EVE GPU alert sounds
 - Custom 8-pin connector for 9-24Vdc power input
 
 ## Software Features
