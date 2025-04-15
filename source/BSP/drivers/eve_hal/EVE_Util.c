@@ -96,7 +96,7 @@ static const uint16_t s_DisplayResolutions[EVE_DISPLAY_NB][4] = {
 	{ 480, 272, 60, 0 }, /* EVE_DISPLAY_DEFAULT (values ignored) */
 
 	/* Landscape */
-	{ 1280, 800, 57, 0 }, /* EVE_DISPLAY_WXGA_1280x800_57Hz */
+	{ 480, 480, 60, 0 }, /* EVE_DISPLAY_WQVGA_480x480_60Hz */
 };
 
 /**
